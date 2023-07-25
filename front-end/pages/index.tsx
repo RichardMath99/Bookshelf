@@ -2,15 +2,13 @@
 import React from 'react';
 import Header from '../components/Header/index';
 import Footer from '../components/Footer/index';
+import Main from '../components/Main/index';
 
 const HomePage: React.FC = () => {
   return (
     <div>
       <Header />
-      <main>
-        <h1>Hello, Next.js!</h1>
-        <p>Welcome to your basic Next.js home page.</p>
-      </main>
+      <Main/>
       <Footer />
     </div>
   );
