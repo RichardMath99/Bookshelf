@@ -11,18 +11,35 @@ export const FooterBox = styled.div`
   gap: 20px;
 `;
 
-export const FooterColumn = styled.div`
-  h4 {
-    display: flex;
-    align-items: center;
-  }
+export const DivIcon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FFCA42;
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
 `;
 
-export const Title = styled.h4`
+export const ConatainerIcon = styled.div`
+  display: flex; 
+`;
+
+export const FooterColumn = styled.div`
+`;
+
+export const DivTitle = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+`;
+
+export const Title = styled.p`
   font-size: 30px;
-  line-height: 37.5px;
   font-weight: 700;
   color: #fff;
+  margin: 0;
 `;
 
 export const CopyrightText = styled.p`
