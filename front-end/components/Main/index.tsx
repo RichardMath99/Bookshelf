@@ -1,9 +1,10 @@
 // components/Header.tsx
 import React from 'react';
+import { HeroSection } from './HeroSection';
 
 const Main: React.FC = () => {
     return (
-        <div><h1>teste</h1></div>
+        <HeroSection/>
     )
 }
 
