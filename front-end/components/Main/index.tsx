@@ -3,6 +3,7 @@ import React from 'react';
 import { HeroSection } from './HeroSection';
 import { AuthorsBook } from './AuthorsBook';
 import { AboutAuthorHome } from './AboutAuthorHome';
+import { Trusted } from './TrustedSection';
 
 const Main: React.FC = () => {
     return (
@@ -10,6 +11,7 @@ const Main: React.FC = () => {
             <HeroSection />
             <AuthorsBook />
             <AboutAuthorHome/>
+            <Trusted/>
         </>
     )
 }
