@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from "next/link";
 
 export const FooterContainer = styled.footer`
   background-color: #1B3764;
@@ -9,17 +10,6 @@ export const FooterBox = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-`;
-
-export const DivIcon = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #FFCA42;
-  padding: 10px;
-  width: 15px;
-  height: 15px;
-  margin: 5px;
 `;
 
 export const ConatainerIcon = styled.div`
@@ -49,4 +39,20 @@ export const CopyrightText = styled.p`
   color: #fff;
   margin-top: 50px;
 `;
+
+export const LinkSocial = styled(Link)`
+    border: 1px solid #FFCA42;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    &:hover{ 
+        background-color: #1B3764;
+        border-color: #fff;
+    }
+`
 
