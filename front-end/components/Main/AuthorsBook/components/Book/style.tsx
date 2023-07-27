@@ -75,6 +75,7 @@ export const Description = styled.p`
 export const ButtonOrder = styled.a`
     padding: 1.25rem 3.3125rem 1.3125rem 3.3125rem;
     border: 1px solid #FFCA42;
+    box-shadow: 0 5px 20px -2px rgba(254,229,0,0.5);
     color: #1B3764;
     text-align: center;
     font-family: Cardo;
