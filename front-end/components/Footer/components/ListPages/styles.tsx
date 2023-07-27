@@ -13,8 +13,10 @@ export const LinkItem = styled(Link)`
     color: #FFF;
     text-decoration: none;
     transition: .3s;
-    &:hover{ 
-        filter: invert(72%) sepia(83%) saturate(389%) hue-rotate(348deg) brightness(102%) contrast(101%);
+
+
+    &:hover{
+        color: #FFCA42;
     }
 `
 
