@@ -46,5 +46,7 @@ export const CopyrightText = styled.p`
   grid-column: 1 / span 4;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: #fff;
+  margin-top: 50px;
 `;
+
