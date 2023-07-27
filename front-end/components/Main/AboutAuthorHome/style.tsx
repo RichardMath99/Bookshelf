@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export const SectionAboutHome = styled.section`
     background-color: #F4F8FF;
-    padding-block: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 9.38rem;
 `
 
 export const Container = styled.div`
@@ -29,7 +30,9 @@ export const Border = styled(Image)`
 `
 
 export const AuthorResumeContainer = styled.div`
-
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 `
 
 export const TitleContainer = styled.div`
@@ -40,7 +43,7 @@ export const TitleContainer = styled.div`
 
 export const TitleSection = styled.h2`
     color: #1B3764;
-    font-family: Cardo;
+    font-family: Cardo, sans-serif;
     font-size: 2.8125rem;
     font-style: normal;
     font-weight: 700;
@@ -51,7 +54,7 @@ export const TitleSection = styled.h2`
 
 export const DescriptionAuthor = styled.p`
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -63,4 +66,17 @@ export const DescriptionAuthor = styled.p`
 export const NumbersContainer = styled.div`
     display: flex;
     gap: 2rem;
+`
+
+export const ContactContainer = styled.div`
+    background: #1B3764;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 1rem;
+`
+
+export const QrCode = styled(Image)`
+
 `
