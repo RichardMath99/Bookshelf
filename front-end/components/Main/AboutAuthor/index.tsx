@@ -1,7 +1,7 @@
 import React from 'react'
 import { Section } from './style'
 
-export const About = () => {
+export const AboutHome = () => {
     return(
         <Section>
             <h1>teste</h1>
