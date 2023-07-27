@@ -4,7 +4,7 @@ import { Section } from './style'
 export const AboutHome = () => {
     return(
         <Section>
-            <h1>teste</h1>
+            <h1>testee</h1>
         </Section>
     )
 }
