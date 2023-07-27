@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import ListPages from './components/ListPages/index';
+import ContactInformation from './components/ContactInformation/index';
 import { FooterContainer, FooterBox, FooterColumn, CopyrightText, Title, DivIcon, ConatainerIcon, DivTitle } from './styles';
 import { Container } from '../../global';
 
@@ -54,7 +55,6 @@ const icons: IconPros[] = [
   }
 ];
 
-
 const items: ItemsProps[] = [
   { 
     text: 'Home', 
@@ -78,8 +78,7 @@ const items: ItemsProps[] = [
   },
 ];
 
-
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <FooterContainer>
       <Container>
@@ -87,12 +86,12 @@ const Footer: React.FC = () => {
           <FooterColumn>
             <DivTitle>
               <Image
-                  src='/svgs/book.svg'
-                  alt='Book'
-                  width={29}
-                  height={38}
-                  style={{ marginRight: '5px', marginLeft: '5px' }}
-                />
+                src='/svgs/book.svg'
+                alt='Book'
+                width={29}
+                height={38}
+                style={{ marginRight: '5px', marginLeft: '5px' }}
+              />
               <Title>
                 Pages
               </Title>
@@ -113,10 +112,13 @@ const Footer: React.FC = () => {
             </ConatainerIcon>
           </FooterColumn>
           <FooterColumn>
-            <Title>
-              Explore
-            </Title>
-            <ListPages items={items} />
+            <ListPages items={items} title="Explore" />
+          </FooterColumn>
+          <FooterColumn>
+            <ListPages items={items} title="Utility Pages" />
+          </FooterColumn>
+          <FooterColumn>
+            <ContactInformation />
           </FooterColumn>
         </FooterBox>
         <CopyrightText>&copy; {new Date().getFullYear()} Bookshelf</CopyrightText>

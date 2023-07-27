@@ -6,6 +6,7 @@ import {
   ContainerList,
   List,
   LinkItem,
+  Title,
   Item
 } from './styles';
 
@@ -15,11 +16,13 @@ interface ListItem {
 
 interface ListPagesProps {
   items: ListItem[];
+  title: string;
 }
 
-const ListPages: React.FC<ListPagesProps> = ({ items }) => {
+const ListPages = ({ items, title }: ListPagesProps) => {
   return (
     <ContainerList>
+      <Title>{title}</Title>
       <List>
         {items.map((item, index) => (
             <Item key={index}>
