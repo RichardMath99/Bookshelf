@@ -1,12 +1,14 @@
 import React from "react"
-import { Author, AuthorImage, AuthorResumeContainer, Border, SectionAboutHome, TitleSection, Container, TitleContainer, DescriptionAuthor, NumbersContainer } from "./style"
+import { Author, AuthorImage, AuthorResumeContainer, Border, SectionAboutHome, TitleSection, Container, TitleContainer, DescriptionAuthor, NumbersContainer, ContactContainer, QrCode} from "./style"
 
-//Iamges
-
+//Images
 import author from '../../../public/AuthorImage.png';
 import border from '../../../public/BorderAuthorImage.svg';
+import qrcode from '../../../public/qrCode.svg'
+
+//Components
 import { LineYellow } from "../HeroSection/style";
-import { Numbers } from "./components";
+import { ContactHome, Numbers } from "./components";
 
 export const AboutAuthorHome = () => {
     return (
@@ -35,6 +37,17 @@ export const AboutAuthorHome = () => {
                         <Numbers number="4.5" text="User Reviews" />
                         <Numbers number='04' text="Best Seller Awards" />
                     </NumbersContainer>
+                    <ContactContainer>
+                        <QrCode
+                        src={qrcode}
+                        alt="Qrcode"
+                        />
+                        <ContactHome
+                        name="John Abraham , Ph.d"
+                        mail="Mail : johnabraham@gmail.com"
+                        phone="Phone: (+2) 123 545 9000"
+                        />
+                    </ContactContainer>
                 </AuthorResumeContainer>
             </Container>
         </SectionAboutHome>
