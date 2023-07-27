@@ -54,7 +54,7 @@ export const Book = (props: Book) => {
                         </Texts>
                     </BookTime>
                 </BookTimeContainer>
-                <ButtonOrder>Order Today</ButtonOrder>
+                <ButtonOrder href='/'>Order Today</ButtonOrder>
             </BookInfos>
         </ContainerBook>
     )
