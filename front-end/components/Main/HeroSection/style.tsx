@@ -36,6 +36,8 @@ export const LineYellow = styled.span`
     display: block;
     border-bottom: .1rem solid #FFCA42;
     width: 2.125rem;
+    height: .05rem;
+    background: #FFCA42
 `
 
 export const Welcome = styled.p`
