@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ListPages from './components/ListPages/index';
 import ContactInformation from './components/ContactInformation/index';
-import { FooterContainer, FooterBox, FooterColumn, CopyrightText, Title, DivIcon, ConatainerIcon, DivTitle } from './styles';
+import { FooterContainer, FooterBox, FooterColumn, CopyrightText, Title, ConatainerIcon, DivTitle, LinkSocial } from './styles';
 import { Container } from '../../global';
 
 interface IconPros {
@@ -98,16 +98,14 @@ const Footer = () => {
             </DivTitle>
             <ConatainerIcon>
               {icons.map((icon, index) => (
-                <Link href={icon.link} passHref key={index} target="_blank">
-                  <DivIcon>
+                <LinkSocial href={icon.link} passHref key={index} target="_blank">
                     <Image
                       src={icon.iconSrc}
                       alt={icon.iconAlt}
                       width={icon.iconWidth}
                       height={icon.iconHeight}
                     />
-                  </DivIcon>
-                </Link>
+                </LinkSocial>
               ))}
             </ConatainerIcon>
           </FooterColumn>
