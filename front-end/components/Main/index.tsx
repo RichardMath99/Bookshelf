@@ -5,6 +5,7 @@ import { AuthorsBook } from './AuthorsBook';
 import { AboutAuthorHome } from './AboutAuthorHome';
 import { Trusted } from './TrustedSection';
 import { GetBook } from './GetBook';
+import Learn from './Learn';
 
 const Main: React.FC = () => {
     return (
@@ -14,6 +15,7 @@ const Main: React.FC = () => {
             <AboutAuthorHome />
             <Trusted />
             <GetBook />
+            <Learn />
         </>
     )
 }
