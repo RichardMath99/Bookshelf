@@ -26,10 +26,11 @@ const InfoItem: React.FC<InfoItemProps> = ({ label, value }) => {
 const AboutInfo: React.FC = () => {
   return (
     <InfoContainer>
-      <Title>Keep in Touch</Title>
-      <InfoItem label="Address" value="Lorem Ipsum Street" />
-      <InfoItem label="Mail" value="support@bookshelf.com" />
-      <InfoItem label="Phone" value="(11) 2311-5421" />
+      <InfoItem label="Country" value="United Kingdom" />
+      <InfoItem label="Language" value="English" />
+      <InfoItem label="Genre" value="Historiography" />
+      <InfoItem label="Publication date" value="1991" />
+      <InfoItem label="Share us on" value="(11) 2311-5421" />
     </InfoContainer>
   );
 };
