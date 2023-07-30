@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     background-color: #fff;
     padding: 45px, 66px, 45px, 66px;
-    border: 2px solid #DFE9F8
+    border: 2px solid #DFE9F8;
+    width: 100%;
+    padding: 10%;
 `;
 
 export const InfoBox = styled.div`
@@ -13,22 +15,20 @@ export const InfoBox = styled.div`
 
 
 export const Txt = styled.p`
-    font-size: 14px;
-    color: #B4C7E7;
+    font-size: 19px;
+    font-weight: 400;
+    color: #969AA0;
+    width: 50%;
 `;
 
 export const Label = styled.p`
-    font-size: 14px;
-    color: #000;
+    font-size: 24px;
+    color: #1B3764;
     font-weight: 600;
-    margin-right: 10px;
+    width: 50%;
+    margin: 0;
 `;
 
-export const Title = styled.p`
-    font-size: 24px;
-    color: #000;
-    margin-top:0;
-`;
 
 
 
