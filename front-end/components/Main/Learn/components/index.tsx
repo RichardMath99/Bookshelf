@@ -22,6 +22,7 @@ const teste: ComponentType[] = [
         number: '04',
         mensage: 'Analyze non-relational data using HBase, Cassandra, and MongoDB.'
     },
+    
 ]
 
 const Component = (props: ComponentType) => {
