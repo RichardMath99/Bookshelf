@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 //styledComponents
-import { Container, DivName, DivPersons, Name, Opinion, Title } from "./style";
+import { Container, DivName, DivPersons, DivS, Name, Opinion, Title } from "./style";
 
 
 //Interface
@@ -45,7 +45,7 @@ const opinionsClients: OpinionsTypes[] = [
 
 const OpinionsCard = (props: OpinionsTypes) => {
     return (
-        <div>
+        <DivS>
             {opinionsClients.map((item) => {
                 return (
                     <Container>
@@ -72,7 +72,7 @@ const OpinionsCard = (props: OpinionsTypes) => {
                 )
             })}
 
-        </div>
+        </DivS>
     )
 }
 

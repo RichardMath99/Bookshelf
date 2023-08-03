@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import Image from "next/image";
 
+export const DivS = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    position: relative;
+`
+
 export const Container = styled.div`
     display: flex;
     width: 20.125rem;
@@ -10,7 +18,12 @@ export const Container = styled.div`
     align-items: flex-start;
     gap: 0.625rem;
     background: #1B3764;
-    border-radius: 10px;
+
+    &:nth-child(3){
+        position: absolute;
+        bottom: 25%;
+        left: 110%;
+    }
 `
 
 export const DivPersons = styled.div`
