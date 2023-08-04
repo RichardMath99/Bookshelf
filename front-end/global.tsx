@@ -25,3 +25,11 @@ export const Container = styled.div`
     padding: 10px;
   }
 `;
+
+export const LineYellow = styled.span`
+  display: block;
+  border-bottom: 0.1rem solid #FFCA42;
+  width: 3.125rem;
+  height: 0.08rem;
+  background: #FFCA42;
+`

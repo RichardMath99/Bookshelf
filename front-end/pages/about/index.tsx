@@ -6,6 +6,8 @@ import Footer from '../../components/Footer';
 import TopSection from '../../components/Main/TopSection';
 import AboutAuthor from '../../components/Main/AboutAuthor';
 import MyStory from '../../components/Main/MyStory';
+import AuthorsBook from '../../components/Main/AuthorsBook';
+import TrustedSection from '../../components/Main/TrustedSection';
 
 
 const HomePage: React.FC = () => {
@@ -15,6 +17,8 @@ const HomePage: React.FC = () => {
       <TopSection />
       <AboutAuthor />
       <MyStory />
+      <AuthorsBook />
+      <TrustedSection />
       <Footer />
     </div>
   );

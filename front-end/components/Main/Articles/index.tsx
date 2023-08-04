@@ -12,7 +12,7 @@ const Articles = () => {
             <Container>
                 <TitleContainer>
                     <TitleSection>Articles & Resources</TitleSection>
-                    <LineYellow></LineYellow>
+                    <LineYellow />
                 </TitleContainer>
                 <ArticlesComponent link="/"/>
             </Container>

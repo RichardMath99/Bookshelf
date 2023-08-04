@@ -27,7 +27,7 @@ export const AboutAuthorHome = () => {
                 <AuthorResumeContainer>
                     <TitleContainer>
                         <TitleSection>About Author</TitleSection>
-                        <LineYellow></LineYellow>
+                        <LineYellow />
                     </TitleContainer>
                     <DescriptionAuthor>
                         All the Lorem Ipsum generators on the Internet tend to repeated predefined chunks as necessary, making this the first true value generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful.

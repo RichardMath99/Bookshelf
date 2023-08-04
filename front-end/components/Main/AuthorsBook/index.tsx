@@ -17,12 +17,12 @@ import book1 from '../../../public/books (2).png'
 import book2 from '../../../public/books (1).png'
 
 
-export const AuthorsBook = () => {
+const AuthorsBook = () => {
     return (
         <Section>
             <Container>
                 <Title>Author’s Book Includes</Title>
-                <LineYellow></LineYellow>
+                <LineYellow />
                 <BooksContainer>
                     <Book
                         img={book1}
@@ -41,3 +41,5 @@ export const AuthorsBook = () => {
         </Section>
     )
 }
+
+export default AuthorsBook;

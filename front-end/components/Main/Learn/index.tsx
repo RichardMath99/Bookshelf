@@ -18,7 +18,7 @@ const Learn = () => {
         <Section>
             <TitleContainer>
                 <Title>Trusted by the Best</Title>
-                <LineYellow></LineYellow>
+                <LineYellow />
             </TitleContainer>
             <Container>
                 <DivS>

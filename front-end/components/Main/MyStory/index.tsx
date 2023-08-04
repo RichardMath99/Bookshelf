@@ -7,35 +7,46 @@ import {
     BoxStory,
     Title,
     Description,
-    TimeLine
+    BoxMyStory
 } from './styles';
 
+import Timeline from './components/Timeline';
+
+const timelineItems = [
+  { title: 'Great Author Awards - 1996 & 2000', description: 'How to navigate around the interface and toggle on/off the panels you wish to use.' },
+  { title: '10 Times New York Times ® Best Seller', description: 'How to navigate around the interface and toggle on/off the panels you wish to use.' },
+  { title: 'Writer of Hack Productivity', description: 'How to navigate around the interface and toggle on/off the panels you wish to use.' },
+];
+
+
 import { Container } from '../../../global';
+import { LineYellow } from '../../../global';
 
 const MyStory: React.FC = () => {
     return (
         <Section>
             <Container>
-                <BoxStory>
-                    <Title>
-                        My Story
-                    </Title>
-                    <Description>
-                        Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.
-                    </Description>
-                    <TimeLine>
-
-                    </TimeLine>
-                </BoxStory>
-                <BoxImg>
-                    <Image
-                        src='/image/mystory.png'
-                        alt='Book'
-                        width={29}
-                        height={38}
-                        style={{ marginRight: '5px', marginLeft: '5px' }}
-                    />
-                </BoxImg>
+                <BoxMyStory>
+                    <BoxStory>
+                        <Title>
+                            My Story
+                        </Title>
+                        <LineYellow />
+                        <Description>
+                            Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.
+                        </Description>
+                        <Timeline items={timelineItems} />
+                    </BoxStory>
+                    <BoxImg>
+                        <Image
+                            src='/imagens/mystory.png'
+                            alt='Book'
+                            width={600}
+                            height={650}
+                            style={{ marginRight: '5px', marginLeft: '5px' }}
+                        />
+                    </BoxImg>
+                </BoxMyStory>
             </Container>
         </Section>
     );

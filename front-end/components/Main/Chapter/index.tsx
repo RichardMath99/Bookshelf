@@ -14,7 +14,7 @@ const Chapter = () => {
         <Section>
             <TitleContainer>
                 <Title>The Chapter Includes</Title>
-                <LineYellow></LineYellow>
+                <LineYellow />
             </TitleContainer>
             <Container>
                 <ChapterComponent />

@@ -21,7 +21,7 @@ const Opinions = () => {
                 <LeftDiv>
                     <TitleContainer>
                         <TitleSection>What Readers Say About the Book</TitleSection>
-                        <LineYellow></LineYellow>
+                        <LineYellow />
                     </TitleContainer>
                     <Description>
                         If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.

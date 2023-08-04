@@ -16,7 +16,7 @@ export const GetBook = () => {
                     <GetBookTitle>
                         Get Book Copy Today!
                     </GetBookTitle>
-                    <LineYellow></LineYellow>
+                    <LineYellow />
                     <GetBookDescription>
                         This the first true value generator on the Internet. It uses alphas dictionary of over 200 Latin words.
                     </GetBookDescription>
