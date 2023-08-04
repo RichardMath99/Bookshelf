@@ -15,13 +15,13 @@ import losBooks from '../../../public/losBooks.svg';
 import urban from '../../../public/urban.svg';
 
 
-export const Trusted = () => {
+const Trusted = () => {
     return (
         <TrustedSection>
             <Container>
                 <TitleContainer>
                     <Title>Trusted by the Best</Title>
-                    <LineYellow></LineYellow>
+                    <LineYellow />
                 </TitleContainer>
                 <TrustedBestContainer>
                     <TrustedItem logo={amazen} title="Amazen Corp"
@@ -41,3 +41,5 @@ export const Trusted = () => {
         </TrustedSection>
     )
 }
+
+export default Trusted; 

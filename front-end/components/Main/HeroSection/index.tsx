@@ -32,7 +32,7 @@ export const HeroSection = () => {
             <Container>
                 <LeftArea>
                     <WelcomeContent>
-                        <LineYellow></LineYellow>
+                        <LineYellow />
                         <Welcome>Welcome to Pages</Welcome>
                     </WelcomeContent>
                     <TitleContent>

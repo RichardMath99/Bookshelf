@@ -12,6 +12,8 @@ import {
 } from './styles';
 
 
+import { LineYellow } from "../HeroSection/style";
+
 
 export const TopSection = () => {
     return (
@@ -20,8 +22,9 @@ export const TopSection = () => {
                 <LeftArea>
                     <TitleContent>
                         <Title>
-                        About the Author
+                            About the Author
                         </Title>
+                        <LineYellow />
                         <Description>
                             There are many variations of passages of Lorem Ipsum available, but the majority have <br/> suffered alteration in some form.
                         </Description>
