@@ -7,14 +7,15 @@ import Header from '../components/Header/index';
 import Footer from '../components/Footer/index';
 import Main from '../components/Main/index';
 
-import { Container } from './style';
-
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
 
   body {
     font-family: 'Cardo', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     /* Outros estilos globais para o corpo da página, se necessário */
   }
 `;
