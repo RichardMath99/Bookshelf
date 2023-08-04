@@ -8,6 +8,7 @@ import { GetBook } from './GetBook';
 import Learn from './Learn';
 import Chapter from './Chapter';
 import Opinions from './Opinions';
+import Articles from './Articles';
 
 const Main: React.FC = () => {
     return (
@@ -20,6 +21,7 @@ const Main: React.FC = () => {
             <Learn />
             <Chapter />
             <Opinions />
+            <Articles />
         </>
     )
 }
