@@ -6,7 +6,6 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 20px;
 
-  /* Adicione as media queries para ajustar o tamanho do contêiner em diferentes tamanhos de tela */
   @media (max-width: 1600px) {
     max-width: 1200px;
   }
@@ -19,7 +18,6 @@ export const Container = styled.div`
     max-width: 768px;
   }
 
-  /* Adicione outras media queries conforme necessário para ajustar em tamanhos menores */
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 10px;
