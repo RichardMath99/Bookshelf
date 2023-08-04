@@ -14,15 +14,19 @@ import {
 
 import { LineYellow } from "../HeroSection/style";
 
+interface TopSectionType {
+    title: string
+}
 
-export const TopSection = () => {
+
+export const TopSection = (props: TopSectionType) => {
     return (
         <Section>
             <Container>
                 <LeftArea>
                     <TitleContent>
                         <Title>
-                            About the Author
+                            {props.title}
                         </Title>
                         <LineYellow />
                         <Description>

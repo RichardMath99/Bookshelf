@@ -65,10 +65,10 @@ const Header: React.FC = () => {
               <LinkItem href="/">
                 Pages
               </LinkItem>
-              <LinkItem href="/">
+              <LinkItem href="/about">
                 About
               </LinkItem>
-              <LinkItem href="/">
+              <LinkItem href="/store">
                 Services
               </LinkItem>
               <LinkItem href="/">

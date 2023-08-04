@@ -8,20 +8,18 @@ import AboutAuthor from '../../components/Main/AboutAuthor';
 import MyStory from '../../components/Main/MyStory';
 import AuthorsBook from '../../components/Main/AuthorsBook';
 import TrustedSection from '../../components/Main/TrustedSection';
+import ContactH from '@/components/Main/ContactHome';
 
 
-const HomePage: React.FC = () => {
+const Store: React.FC = () => {
   return (
     <div>
       <Header />
-      <TopSection title='About the Author'/> 
-      <AboutAuthor />
-      <MyStory />
-      <AuthorsBook />
-      <TrustedSection />
+      <TopSection title='My Store' />
+      <ContactH />
       <Footer />
     </div>
   );
 };
 
-export default HomePage;
+export default Store;
