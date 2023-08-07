@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const BoxTimelineItem = styled.div`
-
+    margin-bottom: 40px;
 `;
 
 export const Title = styled.p`
@@ -15,5 +15,4 @@ export const Description = styled.div`
     font-size: 19px;
     font-weight: 400;
     color: #969AA0;
-    width: 50%;
 `;

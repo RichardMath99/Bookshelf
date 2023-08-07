@@ -8,6 +8,7 @@ import AboutAuthor from '../../components/Main/AboutAuthor';
 import MyStory from '../../components/Main/MyStory';
 import AuthorsBook from '../../components/Main/AuthorsBook';
 import TrustedSection from '../../components/Main/TrustedSection';
+import Newsletter from '../../components/Main/Newsletter';
 
 
 const HomePage: React.FC = () => {
@@ -19,6 +20,7 @@ const HomePage: React.FC = () => {
       <MyStory />
       <AuthorsBook />
       <TrustedSection />
+      <Newsletter />
       <Footer />
     </div>
   );
