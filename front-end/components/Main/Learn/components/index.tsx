@@ -1,11 +1,12 @@
-import { Content, DivS, Number, Text } from "./style"
+import React from "react";
+import { Content, DivS, Number, Text } from "./styles";
 
 interface ComponentType {
-    number?: string,
-    mensage?: string,
+    number?: string;
+    mensage?: string;
 }
 
-const teste: ComponentType[] = [
+const testData: ComponentType[] = [
     {
         number: '01',
         mensage: 'Use HDFS & Map Reduce for storing & analyzing data at scale.'
@@ -21,23 +22,20 @@ const teste: ComponentType[] = [
     {
         number: '04',
         mensage: 'Analyze non-relational data using HBase, Cassandra, and MongoDB.'
-    },
-    
-]
+    }
+];
 
-const Component = (props: ComponentType) => {
+const Component: React.FC = () => {
     return (
         <DivS>
-            {teste.map((item, index) => {
-                return (
-                    <Content>
-                        <Number>{item.number}</Number>
-                        <Text>{item.mensage}</Text>
-                    </Content>
-                )
-            })}
+            {testData.map((item, index) => (
+                <Content key={index}>
+                    <Number>{item.number}</Number>
+                    <Text>{item.mensage}</Text>
+                </Content>
+            ))}
         </DivS>
-    )
+    );
 }
 
-export default Component
+export default Component;

@@ -1,20 +1,20 @@
 import React from "react";
 
-//Components
-import { Container } from "../AboutAuthorHome/style";
-import { TitleSection } from "../AboutAuthorHome/style";
-import { LineYellow } from "../HeroSection/style";
+// Components
+import { Container } from "../AboutAuthorHome/styles";
+import { TitleSection } from "../AboutAuthorHome/styles";
+import { LineYellow } from "../HeroSection/styles";
 
-//StyledComponents
-import { TitleContainer, Description, StarsDiv, NumberStars, Overall, LeftDiv, RigthDiv, Section } from "./style";
+// Styled Components
+import { TitleContainer, Description, StarsDiv, NumberStars, Overall, LeftDiv, RigthDiv, Section } from "./styles";
 
-//Image
-import stars from '../../../public/stars.svg'
+// Image
+import stars from '../../../public/stars.svg';
 import Image from "next/image";
-import OpinionsCard from "./components";
+import OpinionsCard from "./components/index";
+const numberStars: string = '4.8';
 
-const numberStars: string = '4.8'
-const Opinions = () => {
+const Opinions: React.FC = () => {
     return (
         <Container>
             <Section>
@@ -38,11 +38,11 @@ const Opinions = () => {
                     <Overall>Overall Customer Ratings</Overall>
                 </LeftDiv>
                 <RigthDiv>
-                    <OpinionsCard/>
+                    <OpinionsCard />
                 </RigthDiv>
             </Section>
         </Container>
-    )
+    );
 }
 
-export default Opinions
+export default Opinions;

@@ -1,8 +1,8 @@
 
 // Styled Components
-import { TitleSection } from "../AboutAuthorHome/style";
-import { LineYellow } from "../HeroSection/style";
-import { Container, TitleContainer } from "../TrustedSection/style";
+import { TitleSection } from "../AboutAuthorHome/styles";
+import { LineYellow } from "../HeroSection/styles";
+import { Container, TitleContainer } from "../TrustedSection/styles";
 import ArticlesComponent from "./components";
 import { Section } from "./style";
 

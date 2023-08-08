@@ -1,19 +1,19 @@
 import React from "react";
 
-//Styled Components
-import { DivLeft, DivRight, DivS, Section, ImageS, ImageBorder } from "./style";
+// Styled Components
+import { DivLeft, DivRight, DivS, Section, ImageS, ImageBorder } from "./styles";
 
-//Images
-import learn from '../../../public/learn_img.png'
-import border from '../../../public/BorderAuthorImage.svg'
+// Images
+import learn from '../../../public/learn_img.png';
+import border from '../../../public/BorderAuthorImage.svg';
 
-//Components
-import { Title } from "../AuthorsBook/style";
-import { Container, LineYellow } from "../HeroSection/style";
-import { TitleContainer } from "../TrustedSection/style";
-import Component from "./components";
+// Components
+import { Title } from "../AuthorsBook/styles";
+import { Container, LineYellow } from "../HeroSection/styles";
+import { TitleContainer } from "../TrustedSection/styles";
+import Component from "./components/index";
 
-const Learn = () => {
+const Learn: React.FC = () => {
     return (
         <Section>
             <TitleContainer>
@@ -38,7 +38,7 @@ const Learn = () => {
                 </DivS>
             </Container>
         </Section>
-    )
+    );
 }
 
 export default Learn;

@@ -1,10 +1,10 @@
 // components/Header.tsx
 import React from 'react';
-import { HeroSection } from './HeroSection';
+import HeroSection from './HeroSection';
 import AuthorsBook from './AuthorsBook';
-import { AboutAuthorHome } from './AboutAuthorHome';
+import AboutAuthorHome from './AboutAuthorHome';
 import Trusted from './TrustedSection';
-import { GetBook } from './GetBook';
+import GetBook from './GetBook';
 import Learn from './Learn';
 import Chapter from './Chapter';
 import Opinions from './Opinions';

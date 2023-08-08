@@ -1,15 +1,14 @@
-// Import
 import React from "react";
 
 // Global Components
 import { Container } from "@/global";
 
 // Styled Components
-import { YellowBox, Content, Text, Description, Forms, InputS, ButtonS, TextButtonS } from "./style";
+import { YellowBox, Content, Text, Description, Forms, InputS, ButtonS, TextButtonS } from "./styles";
 
-const ContactH = () => {
+const ContactH: React.FC = () => {
     return (
-        <Container style={{paddingBottom: 150}}>
+        <Container style={{ paddingBottom: 150 }}>
             <YellowBox>
                 <Content>
                     <Text>Read a free chapter</Text>
@@ -25,7 +24,7 @@ const ContactH = () => {
                 </Forms>
             </YellowBox>
         </Container>
-    )
+    );
 }
 
 export default ContactH;

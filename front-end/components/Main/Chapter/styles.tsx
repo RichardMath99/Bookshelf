@@ -48,7 +48,7 @@ export const Description = styled.div`
     margin-top: 2rem;
 `
 
-export const TextDescriotion = styled.p`
+export const TextDescription = styled.p`
     margin: 0;
     color: #969AA0;
     text-align: center;

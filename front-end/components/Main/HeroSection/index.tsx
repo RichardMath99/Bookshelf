@@ -1,7 +1,6 @@
-//Imports from React 
 import React from 'react';
 
-//Styled Components
+// Styled Components
 import {
     BookCover,
     ButtonsContainer,
@@ -18,15 +17,15 @@ import {
     TitleContent,
     Welcome,
     WelcomeContent
-} from './style';
+} from './styles';
 
-//Images 
-import book from '../../../public/book.png'
+// Images
+import book from '../../../public/book.png';
 
-//Components
+// Components
 import { Infos } from './components/BookInfos';
 
-export const HeroSection = () => {
+const HeroSection: React.FC = () => {
     return (
         <Section>
             <Container>
@@ -52,7 +51,7 @@ export const HeroSection = () => {
                         </ReadFree>
                     </ButtonsContainer>
                     <InfosContainer>
-                        <Infos name='Pages:' description='586pages' />
+                        <Infos name='Pages:' description='586 pages' />
                         <Infos name='Length:' description='10 Hours' />
                         <Infos name='Ratings:' description='4.5/5 (305 ratings)' />
                     </InfosContainer>
@@ -65,5 +64,7 @@ export const HeroSection = () => {
                 </RightArea>
             </Container>
         </Section>
-    )
+    );
 }
+
+export default HeroSection;
