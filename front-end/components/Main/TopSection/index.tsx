@@ -12,7 +12,7 @@ import {
 } from './styles';
 
 
-import { LineYellow } from "../HeroSection/style";
+import { LineYellow } from "../HeroSection/styles";
 
 interface TopSectionType {
     title: string

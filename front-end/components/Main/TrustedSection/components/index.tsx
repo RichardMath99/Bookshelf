@@ -1,13 +1,13 @@
 import React from "react";
-import { BookLogo, ContainerTrusted, TrusterDescription, TrusterTitle } from "./style";
+import { BookLogo, ContainerTrusted, TrusterDescription, TrusterTitle } from "./styles";
 
 interface TrustedProps {
-    logo: any,
-    title: string,
-    description: string,
+    logo: string;
+    title: string;
+    description: string;
 }
 
-export const TrustedItem = (props: TrustedProps) => {
+const TrustedItem: React.FC<TrustedProps> = (props) => {
     return (
         <ContainerTrusted>
             <BookLogo
@@ -17,5 +17,7 @@ export const TrustedItem = (props: TrustedProps) => {
             <TrusterTitle>{props.title}</TrusterTitle>
             <TrusterDescription>{props.description}</TrusterDescription>
         </ContainerTrusted>
-    )
+    );
 }
+
+export default TrustedItem;

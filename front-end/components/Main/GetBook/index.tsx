@@ -1,14 +1,14 @@
 import React from "react";
 
-//Styled Components
-import { ButtonOrder, GetBookDescription, GetBookSection, GetBookTexts, GetBookTitle, ImageGetBook } from "./style";
-import { Container } from "../AboutAuthorHome/style";
-import { LineYellow } from "../HeroSection/style";
+// Styled Components
+import { ButtonOrder, GetBookDescription, GetBookSection, GetBookTexts, GetBookTitle, ImageGetBook } from "./styles";
+import { Container } from "../AboutAuthorHome/styles";
+import { LineYellow } from "../HeroSection/styles";
 
-//Image
-import getbook from '../../../public/getBook.png'
+// Image
+import getbook from '../../../public/getBook.png';
 
-export const GetBook = () => {
+const GetBook: React.FC = () => {
     return (
         <GetBookSection>
             <Container>
@@ -28,5 +28,7 @@ export const GetBook = () => {
                 />
             </Container>
         </GetBookSection>
-    )
+    );
 }
+
+export default GetBook;

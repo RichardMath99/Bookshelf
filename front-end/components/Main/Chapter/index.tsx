@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-//Styled Components
-import { Section, Container, Button, Description, TextDescriotion, Span } from './style'
+// Styled Components
+import { Section, Container, Button, Description, TextDescription, Span } from './styles';
 
-//Componets
-import { LineYellow } from "../HeroSection/style";
-import { TitleContainer } from "../TrustedSection/style";
-import { Title } from "../AuthorsBook/style";
-import ChapterComponent from './components';
+// Components
+import { LineYellow } from "../HeroSection/styles";
+import { TitleContainer } from "../TrustedSection/styles";
+import { Title } from "../AuthorsBook/styles";
+import ChapterComponent from './components/index';
 
-const Chapter = () => {
+const Chapter: React.FC = () => {
     return (
         <Section>
             <TitleContainer>
@@ -20,14 +20,14 @@ const Chapter = () => {
                 <ChapterComponent />
                 <Button href='/'>Start a 15-Days Free Trail</Button>
                 <Description>
-                    <TextDescriotion>
+                    <TextDescription>
                         Short description about each chapter
                         <Span href='/'>Have any questions?</Span> Contact us
-                    </TextDescriotion>
+                    </TextDescription>
                 </Description>
             </Container>
         </Section>
-    )
-}
+    );
+};
 
-export default Chapter
+export default Chapter;

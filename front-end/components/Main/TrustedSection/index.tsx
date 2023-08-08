@@ -1,21 +1,20 @@
 import React from "react";
 
-//Styled componets
-import { Container, TitleContainer, TrustedBestContainer, TrustedSection } from "./style";
+// Styled Components
+import { Container, TitleContainer, TrustedBestContainer, TrustedSection } from "./styles";
 
-//Components
-import { Title } from "../AuthorsBook/style";
-import { LineYellow } from "../HeroSection/style";
-import { TrustedItem } from "./components";
+// Components
+import { Title } from "../AuthorsBook/styles";
+import { LineYellow } from "../HeroSection/styles";
+import TrustedItem  from "./components/index";
 
-//Images
+// Images
 import amazen from '../../../public/amazen.svg';
 import megan from '../../../public/megan.svg';
 import losBooks from '../../../public/losBooks.svg';
 import urban from '../../../public/urban.svg';
 
-
-const Trusted = () => {
+const Trusted: React.FC = () => {
     return (
         <TrustedSection>
             <Container>
@@ -24,22 +23,30 @@ const Trusted = () => {
                     <LineYellow />
                 </TitleContainer>
                 <TrustedBestContainer>
-                    <TrustedItem logo={amazen} title="Amazen Corp"
+                    <TrustedItem
+                        logo={amazen}
+                        title="Amazen Corp"
                         description='A long established fact that a who looking at its layout.'
                     />
-                    <TrustedItem logo={megan} title="Megan Books"
+                    <TrustedItem
+                        logo={megan}
+                        title="Megan Books"
                         description='A long established fact that a who looking at its layout.'
                     />
-                    <TrustedItem logo={losBooks} title="Los Books"
+                    <TrustedItem
+                        logo={losBooks}
+                        title="Los Books"
                         description='A long established fact that a who looking at its layout.'
                     />
-                    <TrustedItem logo={urban} title="Urban Lib"
+                    <TrustedItem
+                        logo={urban}
+                        title="Urban Lib"
                         description='A long established fact that a who looking at its layout.'
                     />
                 </TrustedBestContainer>
             </Container>
         </TrustedSection>
-    )
+    );
 }
 
-export default Trusted; 
+export default Trusted;
