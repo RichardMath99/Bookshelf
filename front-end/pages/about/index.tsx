@@ -9,6 +9,7 @@ import MyStory from '../../components/Main/MyStory';
 import AuthorsBook from '../../components/Main/AuthorsBook';
 import TrustedSection from '../../components/Main/TrustedSection';
 import Newsletter from '../../components/Main/Newsletter';
+import Newsletter from '../../components/Main/ContactHome';
 
 
 const HomePage: React.FC = () => {
