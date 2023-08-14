@@ -1,4 +1,4 @@
-import Organisms from "./organisms"
+import Organisms from "../organisms"
 
 const Book: React.FC = () => {
     return(
