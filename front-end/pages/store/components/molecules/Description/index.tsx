@@ -1,9 +1,14 @@
 import { Text } from "./styles";
 
-const Description: React.FC = () => {
+// interface
+interface DescriptionType{
+    description: string;
+}
+
+const Description: React.FC<DescriptionType> = (props: DescriptionType) => {
     return (
         <Text>
-            Many variations of passages of Lorem Ipsum willing araise  alteration in some form.
+            {props.description}
         </Text>
     )
 }

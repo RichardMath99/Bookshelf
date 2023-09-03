@@ -1,11 +1,29 @@
-import { TitleDiv, TitleS, Price } from "./styles";
+import { TitleDiv, TitleS, Price, DivS, ImageBook } from "./styles";
+import Image from "next/image";
 
-const Title: React.FC = () => {
+// Image
+import book from '../../atoms/atomic-book.png'
+
+// Interface
+interface Book{
+    name: string;
+    price: string;
+}
+
+const Title: React.FC<Book> = (props: Book) => {
     return (
-        <TitleDiv>
-            <TitleS>Atomic One’s</TitleS>
-            <Price>$23.89</Price>
-        </TitleDiv>
+        <DivS>
+            <ImageBook
+                src={book}
+                alt="book"
+                width={292}
+                height={396}
+            />
+            <TitleDiv>
+                <TitleS>{props.name}</TitleS>
+                <Price>{props.price}</Price>
+            </TitleDiv>
+        </DivS>
     )
 }
 
