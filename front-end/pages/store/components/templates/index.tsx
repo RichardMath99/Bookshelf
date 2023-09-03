@@ -3,9 +3,9 @@ import Organisms from "../organisms"
 const Book: React.FC = () => {
     return(
         <>
-            <Organisms/>
+            <Organisms />
         </>
     )
 }
 
-export default Book
+export default Book 

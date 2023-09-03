@@ -1,11 +1,11 @@
 import Description from "../molecules/Description";
 import Printed from "../molecules/Printed";
 import Title from "../molecules/Title";
-import { Container, Content } from "./styles";
+import { BookLink, Container, Content } from "./styles";
 
 // Interface
 interface InfosBookType {
-    name: string,
+    name : string,
     price: string,
     description: string,
 }
@@ -45,10 +45,17 @@ const infosBook: InfosBookType[] = [
 
 
 const Organisms: React.FC<InfosBookType> = (props: InfosBookType) => {
+
+    function click(){
+
+    }
+
+    // Rendering
     return (
         <Container>
             {infosBook.map((item, index) => {
                 return (
+                    <BookLink href='/book' >
                     <Content>
                         <Title
                             name={item.name}
@@ -58,6 +65,7 @@ const Organisms: React.FC<InfosBookType> = (props: InfosBookType) => {
                         />
                         <Printed />
                     </Content>
+                    </BookLink>
                 )
             })}
 
