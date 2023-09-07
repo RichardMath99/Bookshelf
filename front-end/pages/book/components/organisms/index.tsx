@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 
 // Styled Components
-import { Container, RightDiv } from "./style";
+import { Container, DivS, RightDiv, YellowSection } from "./style";
 
 // Molecules
 import Title from '../molecules/Title/'
@@ -24,10 +24,18 @@ const infosBook: InfosBookType[] = [
 
 // Image
 import book from '../atoms/Book.jpg'
+import TwoButtons from '../molecules/TwoButtons';
+import Description_Infos from '../molecules/Description_Infos';
+import Informations from '../molecules/Informations';
+import secure from '../atoms/SECURE (2).svg'
+import shipping from '../atoms/shipping.svg'
+import satisfactions from '../atoms/satisgactions.svg'
+
 
 const Organisms: React.FC = () => {
     // Rendering
     return (
+        <>
         <Container>
             <Image src={book} alt='book'/>
             <RightDiv>
@@ -43,6 +51,16 @@ const Organisms: React.FC = () => {
                 <ButtonBuy/>
             </RightDiv>
         </Container>
+        <DivS>
+            <TwoButtons/>
+            <Description_Infos/>
+        </DivS>
+        <YellowSection>
+            <Informations image={secure}/>
+            <Informations image={shipping}/>
+            <Informations image={satisfactions}/>
+        </YellowSection>
+        </>
     )
 }
 
