@@ -1,5 +1,6 @@
 import { Text } from "./styles";
 
+
 // interface
 interface DescriptionType{
     description: string;

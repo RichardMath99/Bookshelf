@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const TitleDiv = styled.div`
@@ -27,4 +28,14 @@ export const Price = styled.p`
     font-weight: 700;
     line-height: 180%; /* 2.475rem */
     letter-spacing: -0.01375rem;
+`
+
+export const DivS = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+export const ImageBook = styled(Image)`
+    align-self: center;
+    background-color: #F5F8FC;
 `

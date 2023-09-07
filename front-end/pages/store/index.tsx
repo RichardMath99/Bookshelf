@@ -9,7 +9,7 @@ import MyStory from '../../components/Main/MyStory';
 import AuthorsBook from '../../components/Main/AuthorsBook';
 import TrustedSection from '../../components/Main/TrustedSection';
 import ContactH from '@/components/Main/ContactHome';
-import Book from './components';
+import Book from './components/templates';
 
 
 const Store: React.FC = () => {
