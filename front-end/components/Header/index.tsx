@@ -71,7 +71,7 @@ const Header: React.FC = () => {
               <LinkItem href="/store">
                 Services
               </LinkItem>
-              <LinkItem href="/">
+              <LinkItem href="/contact">
                 Contact
               </LinkItem>
             </ListItem>
