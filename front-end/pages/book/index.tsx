@@ -16,9 +16,7 @@ const Book: React.FC = () => {
         <div>
             <Header />
             <TopSection title='My Store' />
-            <Container>
-                <Organisms/>
-            </Container>
+            <Organisms/>
             <Footer />
         </div>
     );
