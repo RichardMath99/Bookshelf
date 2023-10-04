@@ -16,6 +16,8 @@ import Image from 'next/image';
 // Images
 import user from '../../atoms/user.svg'
 import InputM from '../../molecules/input';
+import TextArea from '../../molecules/textarea';
+import CheckBoxM from '../../molecules/checkbox';
 
 const Forms: React.FC = () => {
   return (
@@ -25,7 +27,8 @@ const Forms: React.FC = () => {
           <InputM placeholder='Email'/>
         </DivS>
         <InputM placeholder='Phone'/>
-        <InputM placeholder='Mensagem'/>
+        <TextArea placeholder='Message'/>
+        <CheckBoxM/>
     </Container>
   );
 };
