@@ -19,18 +19,17 @@ import user from '../../atoms/user.svg'
 // Interface
 interface InputTypes{
     placeholder: string,
-    type ?: string,
 }
 
-const InputM: React.FC<InputTypes> = (props: InputTypes) => {
+const TextArea: React.FC<InputTypes> = (props: InputTypes) => {
   return (
     <Container>
         <DivS>
           <Image alt='user' src={user}/>
-          <InputS type={props.type} placeholder={props.placeholder}/>
+          <InputS rows={5} placeholder={props.placeholder}/>
         </DivS>
     </Container>
   );
 };
 
-export default InputM;
+export default TextArea;
