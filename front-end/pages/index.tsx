@@ -13,9 +13,6 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Cardo', serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     /* Outros estilos globais para o corpo da página, se necessário */
   }
 `;
