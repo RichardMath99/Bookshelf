@@ -17,7 +17,7 @@ const infosBook: InfosBookType[] = [
         description: 'Many variations of passages of Lorem Ipsum willing araise  alteration in some form.',
     },
     {
-        name: 'Atomic One’s',
+        name: 'Dinamico',
         price: '$23.89',
         description: 'Many variations of passages of Lorem Ipsum willing araise  alteration in some form.',
     },
@@ -55,7 +55,7 @@ const Organisms: React.FC<InfosBookType> = (props: InfosBookType) => {
         <Container>
             {infosBook.map((item, index) => {
                 return (
-                    <BookLink href='/book' >
+                    <BookLink href={`/book/${item.name}`}>
                     <Content>
                         <Title
                             name={item.name}
