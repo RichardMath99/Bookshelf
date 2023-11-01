@@ -29,7 +29,7 @@ export const Text = styled.h2`
 export const Description = styled.p`
     color: #1B3764;
     text-align: center;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;

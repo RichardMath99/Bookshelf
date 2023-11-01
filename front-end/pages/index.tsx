@@ -10,6 +10,7 @@ import Main from '../components/Main/index';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
   body {
     font-family: 'Cardo', serif;

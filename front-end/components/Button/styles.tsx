@@ -10,7 +10,7 @@ export const Btn = styled.a`
     display: flex;
     justify-content:center;
     align-items: center;
-    width: 85px;
+    width: max-content;
 
     &:hover{
         color:#1B3764;

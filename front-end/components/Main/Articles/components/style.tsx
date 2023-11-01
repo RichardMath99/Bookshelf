@@ -34,7 +34,7 @@ export const ArticlesContent = styled.div`
 
 export const Description = styled.p`
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -64,7 +64,7 @@ export const BottomDiv = styled.div`
 export const AuthorDate = styled.p`
     color: #1B3764;
     text-align: right;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.0625rem;
     font-style: normal;
     font-weight: 400;
@@ -74,7 +74,7 @@ export const AuthorDate = styled.p`
 export const Span = styled.span`
     color: #1B3764;
     text-align: right;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.0625rem;
     font-style: normal;
     font-weight: 400;

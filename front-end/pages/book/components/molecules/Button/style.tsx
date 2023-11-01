@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Qtd = styled.p`
 color: #969AA0;
-font-family: Inter;
+font-family: Inter, sans-serif;;
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 500;

@@ -27,7 +27,7 @@ export const Title = styled.p`
 
 export const Description = styled.p`
     color: #B4C7E7;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.125rem;
     font-weight: 400;
     margin: 0;

@@ -27,7 +27,7 @@ export const GetBookTitle = styled.h2`
 
 export const GetBookDescription = styled.p`
     color: #B4C7E7;
-    font-family: Inter, sans-serif;
+    font-family: Inter, sans-serif;, sans-serif;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;

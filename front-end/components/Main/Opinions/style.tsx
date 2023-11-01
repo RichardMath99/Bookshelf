@@ -6,7 +6,7 @@ export const TitleContainer = styled.div`
 
 export const Description = styled.p`
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -36,7 +36,7 @@ export const NumberStars = styled.p`
 export const Overall = styled.p`
     margin: 0;
     color: #1B3764;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;

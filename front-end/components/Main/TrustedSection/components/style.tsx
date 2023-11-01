@@ -32,7 +32,7 @@ export const TrusterDescription = styled.p`
     flex-shrink: 0;
     color: #969AA0;
     text-align: center;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;

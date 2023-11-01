@@ -18,7 +18,7 @@ export const Number = styled.h3`
 
 export const Text = styled.p`
     color: #969AA0;
-    font-family: Inter, sans-serif;
+    font-family: Inter, sans-serif;, sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
@@ -44,7 +44,7 @@ export const AuthorName = styled.p`
 
 export const AuthorMail = styled.p`
     color: #B4C7E7;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -54,7 +54,7 @@ export const AuthorMail = styled.p`
 `
 export const AuthorPhone = styled.p`
     color: #B4C7E7;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;

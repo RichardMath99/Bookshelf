@@ -32,7 +32,7 @@ export const Title = styled.h4`
 export const Description = styled.p`
     margin: 0;
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -68,7 +68,7 @@ export const Pages = styled.p`
 
 export const Span = styled.span`
     color: #969AA0;
-    font-family: Inter, sans-serif;
+    font-family: Inter, sans-serif;, sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;

@@ -54,7 +54,7 @@ export const TitleSection = styled.h2`
 
 export const DescriptionAuthor = styled.p`
     color: #969AA0;
-    font-family: Inter, sans-serif;
+    font-family: Inter, sans-serif;, sans-serif;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;

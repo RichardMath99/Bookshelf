@@ -29,7 +29,7 @@ export const BookResume = styled.p`
     color: #969AA0;
     margin: 0;
     line-height: 180%; /* 2.1375rem */
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -66,7 +66,7 @@ export const Title = styled.p`
 
 export const Description = styled.p`
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.125rem;
     font-weight: 400;
     margin: 0;

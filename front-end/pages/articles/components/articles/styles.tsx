@@ -40,7 +40,7 @@ width: 19.1875rem;
 
 export const DescriptionArticle = styled.p`
 color: #969AA0;
-font-family: Inter;
+font-family: Inter, sans-serif;;
 font-size: 1.1875rem;
 font-style: normal;
 font-weight: 400;
@@ -69,7 +69,7 @@ export const LinkS = styled(Link)`
 export const DateArticle = styled.p`
     color: #1B3764;
     text-align: right;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.0625rem;
     font-style: normal;
     font-weight: 400;

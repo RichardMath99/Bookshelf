@@ -22,7 +22,7 @@ export const Price = styled.p`
     margin: 0;
     color: #FFCA42;
     text-align: right;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 700;

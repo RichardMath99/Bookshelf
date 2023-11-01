@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Text = styled.p`
 color: #969AA0;
-font-family: Inter;
+font-family: Inter, sans-serif;;
 font-size: 1.1875rem;
 font-style: normal;
 font-weight: 400;

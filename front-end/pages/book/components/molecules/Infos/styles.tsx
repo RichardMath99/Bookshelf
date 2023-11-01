@@ -11,7 +11,7 @@ export const DivS = styled.div`
 
 export const Text = styled.p`
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
@@ -22,7 +22,7 @@ export const Text = styled.p`
 
 export const Title = styled.p`
     color: #969AA0;
-    font-family: Inter;
+    font-family: Inter, sans-serif;;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 400;
