@@ -5,7 +5,7 @@ Um aplicativo web para gerenciar sua estante virtual de livros online.
 ## Tecnologias
 
 - Next.js
-- Node.js
+- Node.js 
 - MongoDB
 
 ## Configuração Local
